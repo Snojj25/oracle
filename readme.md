@@ -16,7 +16,7 @@
 
 
 ### Functions:
-```
+```cairo
 latest_timestamp() -> (ts : felt)   # Returns the timestamp of when prices where last updated
 latest_block_number() -> (bn : felt)   # Returns the block number of when prices where last updated
 latest_round() -> (roundId: felt)   # Returns the round ID of when prices where last updated
