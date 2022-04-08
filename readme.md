@@ -37,7 +37,7 @@ latestTransmissionDetails() -> (config_digest, epoch, round, latest_answer,lates
 ```
 
 ### NOTE:
-*Prices returned by the oracle are multiplied by 10^8 because cairo doesn't support decimal numbers
+*Prices returned by the oracle are multiplied by 10^decimals because cairo doesn't support decimal numbers
 
 
 ---
