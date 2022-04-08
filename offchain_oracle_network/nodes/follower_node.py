@@ -9,7 +9,6 @@ import threading
 from starkware.cairo.common.hash_state import compute_hash_on_elements
 from starkware.crypto.signature.signature import sign, verify, private_to_stark_key
 
-
 import helpers.helpers as h
 from transmission import Transmission
 
