@@ -28,11 +28,11 @@ Since multiple nodes are signing the report it is impossible for a malicious or 
 This are the most important functions.
 ```cairo
 func decimals() -> (decimals) # returned prices are multiplied by 10^decimals
-latest_timestamp() -> (ts : felt)   # Returns the timestamp of when prices where last updated
-latest_round() -> (roundId: felt)   # Returns the round ID of when prices where last updated
-latest_price() -> (price: felt)   # returns a Uint256 price
-latest_round_data() -> (res : Response)   # returns the latest Response data (see below)
-get_round_data(roundId : felt) -> (res : Response)   # takes a round ID and returns the Response data at round round ID
+func latest_timestamp() -> (ts : felt)   # Returns the timestamp of when prices where last updated
+func latest_round() -> (roundId: felt)   # Returns the round ID of when prices where last updated
+func latest_price() -> (price: felt)   # returns a Uint256 price
+func latest_round_data() -> (res : Response)   # returns the latest Response data (see below)
+func get_round_data(roundId : felt) -> (res : Response)   # takes a round ID and returns the Response data at round round ID
 func latestTransmissionDetails() -> (config_digest, epoch, round, latest_answer,latest_timestamp):  # returns the latest transmission details
 ```
 
